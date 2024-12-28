@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:1000px), screen and  (min-width:1600px) {
+    body{
+        display: none;
+    }
+}
