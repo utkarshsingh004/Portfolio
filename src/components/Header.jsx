@@ -60,18 +60,6 @@ const Header = () => {
 								className="ml-2 text-light ho" />
 						</Nav.Link>
 					</Nav>
-					<Nav className="ml-auto-2">
-						<Nav.Link href="https://github.com/utkarshsingh004">
-							<span className="sr-only">Github</span>
-							<FontAwesomeIcon icon={faGithub} size="lg"
-								className='text-light ho' />
-						</Nav.Link>
-						<Nav.Link href="https://linkedin.com/in/yourusername">
-							<span className="sr-only">Linkedin</span>
-							<FontAwesomeIcon icon={faLinkedin} size="lg"
-								className='text-light ho' />
-						</Nav.Link>
-						</Nav>
 					</div>
 		</Navbar>
 	);
