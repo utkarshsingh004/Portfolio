@@ -80,15 +80,6 @@ span {
     justify-content: space-around;
 }
 
-.ml-auto-2 {
-    margin-left: auto;
-    display: flex;
-    flex-direction: row;
-    width: 30%;
-    /* border: 2px solid red; */
-    justify-content:flex-end
-}
-
 /* Font Awesome Icons */
 .fa-lg {
     margin-right: 5px;
