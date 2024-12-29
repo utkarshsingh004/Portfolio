@@ -56,12 +56,55 @@ const Skills = () => {
 				<li> 
 					<FontAwesomeIcon icon={faLaptopCode} 
 						className="mr-2" /> 
-					Python 
+					MongoDB 
 				</li> 
 				<li> 
 					<FontAwesomeIcon icon={faLaptopCode} 
 						className="mr-2" /> 
+					SQL 
+				</li> 
+				{/* Add more skills as needed */} 
+			</ul> 
+			<ul className="skills-list"> 
+				<li> 
+					<FontAwesomeIcon icon={faCode} 
+						className="mr-2" /> 
 					Java 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faCode} 
+						className="mr-2" /> 
+				   C++
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faCode} 
+						className="mr-2" /> 
+					C 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faLaptopCode} 
+						className="mr-2" /> 
+					C++ 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faLaptopCode} 
+						className="mr-2" /> 
+					Express.js 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faLaptopCode} 
+					className="mr-2" /> 
+					AWS
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faLaptopCode} 
+						className="mr-2" /> 
+					Git 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faLaptopCode} 
+						className="mr-2" /> 
+					Github 
 				</li> 
 				{/* Add more skills as needed */} 
 			</ul> 

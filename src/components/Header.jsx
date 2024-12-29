@@ -61,7 +61,7 @@ const Header = () => {
 						</Nav.Link>
 					</Nav>
 					<Nav className="ml-auto-2">
-						<Nav.Link href="https://github.com/yourusername">
+						<Nav.Link href="https://github.com/utkarshsingh004">
 							<span className="sr-only">Github</span>
 							<FontAwesomeIcon icon={faGithub} size="lg"
 								className='text-light ho' />

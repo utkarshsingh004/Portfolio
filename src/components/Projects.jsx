@@ -3,92 +3,81 @@ import React from 'react';
 import { FontAwesomeIcon } 
 	from '@fortawesome/react-fontawesome'; 
 import { faCode } from '@fortawesome/free-solid-svg-icons'; 
-import Breadcrumbs from './Breadcrumbs'; 
+// import Breadcrumbs from './Breadcrumbs'; 
 import '../App.css'; 
 
 const Projects = () => { 
-	const breadcrumbsPaths = 
-		[ 
-			{ title: 'Home', to: '/' }, 
-			{ title: 'Projects', to: '/projects' } 
-		]; 
+	// const breadcrumbsPaths = 
+	// 	[ 
+	// 		{ title: 'Home', to: '/' }, 
+	// 		{ title: 'Projects', to: '/projects' } 
+	// 	]; 
 
 	return ( 
 		<section id="projects"
 			className="container text-center"> 
-			<Breadcrumbs paths={breadcrumbsPaths} /> 
+			{/* <Breadcrumbs paths={breadcrumbsPaths} />  */}
 			<h2 className="section-title"> 
 				<FontAwesomeIcon icon={faCode} 
 					className="mr-2" /> 
 				Projects 
 			</h2> 
-			<div className="row"> 
-				{/* Project 1 */} 
-				<div className="col-md-6"> 
-					<div className="card mb-4"> 
-						<div className="card-body"> 
-							<h5 className="card-title"> 
-								Read For Speed - 
-								Smart India Hackathon 2022 
-							</h5> 
-							<p className="card-text"> 
-								Designed the UI and implemented 
-								CSS styling for the website, 
-								optimizing performance and design across 
-								all pages. 
-							</p> 
-						</div> 
-					</div> 
+			<div className="rowp1"> 
+				<div className="project-container">
+					<img src="weather-app.png" alt="weather-app" />
+					<h2>Weather-App</h2>
+					<p>Stay prepared with this user-friendly weather app! Get real-time updates on current conditions, hourly forecasts, and a 7-day outlook. Features include location-based weather, wind speed, and interactive maps, all designed to keep you informed at a glance.</p>
+					<div className="button-container">
+						<a href="https://utkarsh004-weather-app.netlify.app/"><button>VIEW</button></a>
+						<a href="https://github.com/utkarshsingh004/weather-app.git"><button>Source Code</button></a>
+					</div>
+				</div>
+
+				<div className="project-container">
+					<img src="expenseTracker.png" alt="expense-tracker" />
+					<h2>Expense-Tracker</h2>
+					<p>A user-friendly application designed to track and manage personal finances efficiently. It helps users record expenses, categorize transactions, and monitor spending habits with insightful visualizations.</p>
+					<div className="button-container">
+						<a href="https://utkarsh004-expense-tracker.netlify.app/"><button>VIEW</button></a>
+						<a href="https://github.com/utkarshsingh004/Expense-Tracker.git"><button>Source Code</button></a>
+					</div>
+				</div>
+
+				<div className="project-container">
+					<img src="BMI.png" alt="BMI-calculator" />
+					<h2>BMI-Calculator</h2>
+					<p>A BMI Calculator using React is an interactive web application designed to calculate an individual's Body Mass Index (BMI) by taking their weight (in kilograms or pounds) and height (in centimeters, meters, or inches) as inputs.</p>
+					<div className="button-container">
+						<a href="https://utkarsh-bmi-calculator.netlify.app/"><button>VIEW</button></a>
+						<a href="https://github.com/utkarshsingh004/BMI-CALCULATOR.git"><button>Source Code</button></a>
+					</div>
+				</div>
+
 				</div> 
-				{/* Project 2 */} 
-				<div className="col-md-6"> 
-					<div className="card mb-4"> 
-						<div className="card-body"> 
-							<h5 className="card-title"> 
-								Training and Placement 
-								Cell Website Official 
-							</h5> 
-							<p className="card-text"> 
-								Designed and developed the official 
-								Placement Website for the university using 
-								HTML, CSS, JavaScript, jQuery, and Bootstrap. 
-							</p> 
-						</div> 
-					</div> 
+
+				<div className="rowp2"> 
+				<div className="project-container">
+					<img src="tic-tac-toe.png" alt="tic-tac-toe" />
+					<h2>Tic-Tac-Toe</h2>
+					<p>Classic Tic Tac Toe Game: A simple, web-based implementation of the classic Tic Tac Toe game using HTML, CSS, and JavaScript. Play against a friend in the browser, take turns marking X or O on the 3x3 grid, and aim for victory with three in a row. Easily deployable and customizable for learning or casual gaming.</p>
+					<div className="button-container">
+						<a href="https://utkarshsingh004.github.io/Tic-Tac-Toe/"><button>VIEW</button></a>
+						<a href="https://github.com/utkarshsingh004/Tic-Tac-Toe.git"><button>Source Code</button></a>
+					</div>
+				</div>
+
+				<div className="project-container">
+					<img src="translator.png" alt="translator" />
+					<h2>Translator</h2>
+					<p>This is a Translation App built with React and Vite, utilizing the Microsoft Translator API for real-time language translation. The app allows users to select input and output languages, enter text, and view translated results instantly.</p>
+					<div className="button-container">
+						<a href="https://utkarsh-translator-app.netlify.app/"><button>VIEW</button></a>
+						<a href="https://github.com/utkarshsingh004/translator-app.git"><button>Source Code</button></a>
+					</div>
+				</div>
+
 				</div> 
-				{/* Project 3 */} 
-				<div className="col-md-6"> 
-					<div className="card mb-4"> 
-						<div className="card-body"> 
-							<h5 className="card-title"> 
-								E-commerce Platform 
-							</h5> 
-							<p className="card-text"> 
-								Built a fully functional e-commerce 
-								platform with features like product listing, 
-								cart management, and user authentication using 
-								React, Node.js, and MongoDB. 
-							</p> 
-						</div> 
-					</div> 
-				</div> 
-				{/* Project 4 */} 
-				<div className="col-md-6"> 
-					<div className="card mb-4"> 
-						<div className="card-body"> 
-							<h5 className="card-title"> 
-								Social Media Dashboard 
-							</h5> 
-							<p className="card-text"> 
-								Developed a social media dashboard 
-								that allows users to view and manage 
-								their social media accounts in one place, 
-								integrating with APIs from major platforms. 
-							</p> 
-						</div> 
-					</div> 
-				</div> 
-			</div> 
+
 		</section> 
 	); 
 }; 
