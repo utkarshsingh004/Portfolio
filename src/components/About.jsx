@@ -24,7 +24,7 @@ const About = () => {
 							className="img-fluid rounded-circle profile-image" />
 					</div>
 					<p className="section-description mt-4">
-					Hi, I'm Utkarsh Kumar Singh, a passionate web developer with a strong foundation in both frontend and backend development. I specialize in creating clean, responsive, and user-friendly websites and applications that deliver seamless user experiences. My skill set includes HTML, CSS, JavaScript, React, Node.js, and other modern web technologies.
+					Hi, I'm <big><b>Utkarsh Kumar Singh</b></big>, a passionate web developer with a strong foundation in both frontend and backend development. I specialize in creating clean, responsive, and user-friendly websites and applications that deliver seamless user experiences. My skill set includes HTML, CSS, JavaScript, React, Node.js, and other modern web technologies.
 					</p>
 				</div>
 			</div>
